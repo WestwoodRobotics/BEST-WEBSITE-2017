@@ -3,6 +3,7 @@ body {
 
 	background: url("0.jpg") no-repeat 0 0 fixed;
 	background-size: 100% 100%;
+	margin: 0;
 }
 
 .container.content {
@@ -40,6 +41,14 @@ body {
 	display: inline-block;
 }
 
+.dropdown-menu li {
+	width: 100%;
+}
+
+.dropdown-menu li a {
+	text-align: left;
+}
+
 .header {
 	text-align: center;
 	text-decoration-style: bold;
@@ -59,12 +68,13 @@ body {
 	width: 100%;
 	left: 0;
 	text-align: center;
-	margin:0 auto;
 }
 
 .nav.navbar-nav li {
 	float: none;
+	text-align: center;
 	display: inline-block;
+	margin-right: -5px;
 }
 
 .nav.navbar-nav li:not(.no-hover):hover {
