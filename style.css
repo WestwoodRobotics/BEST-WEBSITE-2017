@@ -7,7 +7,6 @@ body {
 }
 
 .container.content {
-	z-index: -1;
 	margin-top: 25px;
 	padding-top: 15px;
 	background-color: #353535;
@@ -38,27 +37,37 @@ body {
 
 .container.content p {
 	color: #c8c8c8;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 	margin: auto;
 }
 
 .container.content h2 {
-	color: #c8c8c8;
+	color: #e8e8e8;
 	padding-bottom: 15px;
 	margin: auto;
 }
 
 .container.content img {
-	/*opacity: 0.65;*/
+	opacity: 0.85;
 	padding: 20px 10px 20px 10px;
 	width: 100%;
 	transition: all 0.75s;
 }
 
-/*.container.content img:hover {
+.container.content p, h2 {
+	opacity: 0.65;
+	transition: all 0.75s;
+}
+
+.container.content:hover p, h2 {
 	opacity: 1;
 	transition: all 0.75s;
-}*/
+}
+
+.container.content:hover img {
+	opacity: 0.95;
+	transition: all 0.75s;
+}
 
 .container.content.box {
 	margin-left: 15%;
@@ -96,6 +105,7 @@ body {
 }
 
 .navbar.navbar-default {
+	z-index: 1;
 	top: 0px;
 	position: sticky;
 }
@@ -113,10 +123,12 @@ body {
 	text-align: center;
 	display: inline-block;
 	margin-right: -5px;
+	transition: all 0.25s;
 }
 
 .nav.navbar-nav li:not(.no-hover):hover {
 	background-color: #f1f1f1;
+	transition: all 0.25s;
 }
 
 .useless-padding {
