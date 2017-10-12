@@ -7,6 +7,7 @@ body {
 }
 
 .container.content {
+	z-index: -1;
 	margin-top: 25px;
 	padding-top: 15px;
 	background-color: #353535;
@@ -48,16 +49,16 @@ body {
 }
 
 .container.content img {
-	opacity: 0.65;
+	/*opacity: 0.65;*/
 	padding: 20px 10px 20px 10px;
 	width: 100%;
 	transition: all 0.75s;
 }
 
-.container.content img:hover {
+/*.container.content img:hover {
 	opacity: 1;
 	transition: all 0.75s;
-}
+}*/
 
 .container.content.box {
 	margin-left: 15%;
@@ -100,7 +101,8 @@ body {
 }
 
 .nav.navbar-nav {
-	position: absolute;
+	z-index: 1;
+	position: fixed;
 	width: 100%;
 	left: 0;
 	text-align: center;

@@ -6,7 +6,7 @@ window.onload = function() {
 		$(this).parent().addClass("active");
 	});
 
-	$(".container.content div").hover(function() {
+	$(".container.content").hover(function() {
 		console.log("hover");
 		var $divId = $(this).attr("id");
 		$(".nav.navbar-nav li a").each(function() {
