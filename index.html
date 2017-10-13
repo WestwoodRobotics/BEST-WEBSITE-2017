@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	
 	<!-- Font  -->
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Quicksand" rel="stylesheet"> 
 
 </head>
 
@@ -26,8 +26,11 @@
 						<span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="http://www.team2583.org">Team Website</a></li>
-						<li><a id="github" href="https://github.com/WestwoodRobotics">Team Github</a></li>
+						<li><a href="http://www.team2583.org">Official Website</a></li>
+						<li><a href="https://github.com/WestwoodRobotics">Github</a></li>
+						<li><a href="https://www.flickr.com/photos/134326225@N07/"> Flickr </a></li>
+						<li><a href="https://twitter.com/wwrobowarriors"> Twitter </a></li>
+						<li><a href="https://www.youtube.com/user/westwoodrobot2583"> Youtube </a></li>
 					</ul>
 				</li>
 				<li class="active"><a href="#">Home</a></li>
@@ -107,7 +110,7 @@
 
 		<div id="hot-zone">
 			<div class="useless-padding ghost"></div>
-			<span><b>Hot Zone:</b></span>
+			<h4> Hot Zone </h4>
 			<p>
 				The hot zone surrounds the no entry zone and is divided into four other areas, and each of these is accessible by a designated team. In each of these hot zones, Manny the distressed Manikin is on the left and must be saved by the team’s robot and placed in a safe area in the cold zone for 120 points. The teams are also offered 180 bonus points subtracted by the time taken in seconds to rescue him.	
 			</p>
@@ -115,7 +118,7 @@
 
 		<div id="cold-zone">	
 			<div class="useless-padding ghost"></div>
-			<span><b>Cold Zone:</b></span>
+			<h4> Cold Zone </h4>
 			<p>
 				The cold zone lines the perimeter of the hot zone, and contains the starting boxes, chemical drums, and containment area. In the cold zone, three chemical drums of different weights must be moved to touch the bottom of the containment area in the cold zone at the end of the match to gain 120 points or 40 points for each chemical drum. There is also a water hydrant that stores the water at the beginning of the match.
 			</p>
@@ -123,7 +126,7 @@
 
 		<div id="no-entry-zone"> 
 			<div class="useless-padding ghost"></div>
-			<span><b>No Entry Zone:</b></span>
+			<h4> No Entry Zone </h4>
 			<p>
 				The no entry zone is a 6'x6'x5' building in the center of the field which has collapsed because of the fire. The direct result of this is an unstable structure and flaming debris all over the place. Because of the extreme heat and unstable structure, it is a no entry zone that robots cannot travel or reach within. Each of the teams is designated a section of the flames to put out. The flames are simulated by multicolored plastic cups with each color designated for a specific team to put out. Each team will have 30 flames to put out and each are worth 5 points each. If all 30 flames are extinguished--completely knocked over--they receive the "Under Control Bonus" worth 30 points.
 			</p>
@@ -145,25 +148,37 @@
 			<div class="useless-padding ghost"></div>
 			<h2> Robot Functions </h2>
 
-			<span id="saving-manny"> Saving Manny </span>
-			<p>
-				In order to move Manny to his designated safe spot, we built an arm that has one degree of rotation on the x-axis. The arm is made using a sprocket and belt system and a motor that determines the height of a wooden bar that is extended by two PVC pipes. By moving the wooden bar upwards and downwards, the robot now has the ability to push and pull Manny to wherever he needs to go.
-			</p>
+			<div id="saving-manny"> 
+				<div class="useless-padding ghost"></div>
+				<h4> Saving Manny </h4>
+				<p>
+					In order to move Manny to his designated safe spot, we built an arm that has one degree of rotation on the x-axis. The arm is made using a sprocket and belt system and a motor that determines the height of a wooden bar that is extended by two PVC pipes. By moving the wooden bar upwards and downwards, the robot now has the ability to push and pull Manny to wherever he needs to go.
+				</p>
+			</div>
 
-			<span id="putting-out-fire"> Putting Out the Fire </span>
-			<p>
-				Our team constructed a catapult that launches the water at the fire to put it out. We were able to do this by using a servo that pulls back the catapult and stretches a bungee cord. When the bungee is released, so is the water. When the robot is correctly aligned and aimed at the fire, the water will successfully be able to put out the fire.
-			</p>
+			<div id="putting-out-fire">
+				<div class="useless-padding ghost"></div>
+				<h4> Putting Out the Fire </h4>
+				<p>
+					Our team constructed a catapult that launches the water at the fire to put it out. We were able to do this by using a servo that pulls back the catapult and stretches a bungee cord. When the bungee is released, so is the water. When the robot is correctly aligned and aimed at the fire, the water will successfully be able to put out the fire.
+				</p>
+			</div>
 
-			<span id="chemical-drums"> Collecting The Chemical Drums </span>
-			<p>
-			    After considering the possible designs we could use to pick up the chemical drums, we decided that only picking up the top can by using a claw. This mechanism works like a pair of scissors by only using string, a motor, and two claws. The motor will wind the string to close the claw, and unwind the string to open it.
-			</p>
+			<div id="chemical-drums">
+				<div class="useless-padding ghost"></div>
+				<h4> Collecting The Chemical Drums </h4>
+				<p>
+				    After considering the possible designs we could use to pick up the chemical drums, we decided that only picking up the top can by using a claw. This mechanism works like a pair of scissors by only using string, a motor, and two claws. The motor will wind the string to close the claw, and unwind the string to open it.
+				</p>
+			</div>
 
-			<span id="driving"> Driving </span>
-			<p>
-				Our robot uses two 12-inch wheels located in the back of the robot base. These wheels are controlled by two motors for power, and skids for balance. The skids were designed to gently bounce the robot in order to ensure that none of the robot components and attachments are put out of place or ruined.
-			</p>
+			<div id="driving">
+				<div class="useless-padding ghost"></div>
+				<h4> Driving </h4>
+				<p>
+					Our robot uses two 12-inch wheels located in the back of the robot base. These wheels are controlled by two motors for power, and skids for balance. The skids were designed to gently bounce the robot in order to ensure that none of the robot components and attachments are put out of place or ruined.
+				</p>
+			</div>
 
 	</div>
 

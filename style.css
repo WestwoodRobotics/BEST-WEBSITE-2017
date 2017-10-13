@@ -7,7 +7,7 @@ body {
 }
 
 .container.content {
-	margin-top: 25px;
+	margin: 25px 0px 65px 0px;
 	padding-top: 15px;
 	background-color: #353535;
 	border-radius: 5px;
@@ -36,12 +36,24 @@ body {
 }*/
 
 .container.content p {
+
+    font-family: 'Nunito Sans', sans-serif;
+
 	color: #c8c8c8;
+	font-size: 16px;
 	padding-bottom: 20px;
 	margin: auto;
 }
 
 .container.content h2 {
+	font-family: 'Quicksand', sans-serif;
+	color: #e8e8e8;
+	padding-bottom: 15px;
+	margin: auto;
+}
+
+.container.content h4 {
+	font-family: 'Quicksand', sans-serif;
 	color: #e8e8e8;
 	padding-bottom: 15px;
 	margin: auto;
@@ -54,12 +66,12 @@ body {
 	transition: all 0.75s;
 }
 
-.container.content p, h2 {
+.container.content p, h2, h4 {
 	opacity: 0.65;
 	transition: all 0.75s;
 }
 
-.container.content:hover p, h2 {
+.container.content:hover p, h2, h4 {
 	opacity: 1;
 	transition: all 0.75s;
 }
@@ -77,9 +89,7 @@ body {
 .container.content.box span {
 	letter-spacing: 2px;
 	color: #e8e8e8;
-	padding: 0px;
-	font-size: 16px;
-	font-family: "Abril Fatface", cursive;
+	font-size: 18px;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -123,6 +133,7 @@ body {
 	display: inline-block;
 	margin-right: -5px;
 	transition: all 0.25s;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .nav.navbar-nav li:not(.no-hover):hover {
