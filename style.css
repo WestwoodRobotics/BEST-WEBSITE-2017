@@ -112,7 +112,6 @@ body {
 
 .nav.navbar-nav {
 	z-index: 1;
-	position: fixed;
 	width: 100%;
 	left: 0;
 	text-align: center;
